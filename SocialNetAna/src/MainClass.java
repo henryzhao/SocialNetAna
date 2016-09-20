@@ -11,21 +11,7 @@ public class MainClass {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-//		readmysql rm = new readmysql();
-//		String filepath = "E:\\Users\\dell\\workspace\\SocialNetAna\\db\\author_early.txt";
-//		HashMap<Integer, Date> author_early = new HashMap<Integer, Date>();
-//		try {
-//			readmysql.read_author_early(filepath, author_early);
-//		} catch (ParseException e) {
-//			// TODO Auto-generated catch block
-//			e.printStackTrace();
-//		}
-//		for (int i = 0; i < author_early.size(); i++) {
-//			System.out.println( i + " " + author_early.get(i));
-//		}
-//		String adbString = author_early.get(4333).toString();
-//		int linenum = author_early.size();
-//		System.out.println( linenum +adbString);
+
 		String filepath = "./db/test_developer.txt";
 		readmysql rm = new readmysql();
 		Set<Integer> authors=new HashSet<Integer>();

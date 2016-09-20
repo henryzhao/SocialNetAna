@@ -225,8 +225,6 @@ public class author_peernet extends readmysql{
 		counttotal++;
 	//	System.out.println(counttotal);
 	
-
-
 	}
 	public static void put_into_author_peer_projs(Integer author,Integer fixer,Integer proj){
 		if(author_peer_project.containsKey(author)){
